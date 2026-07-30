@@ -33,4 +33,4 @@ opcoes = {
 with YoutubeDL(opcoes) as ydl:
     ydl.download(urls)
 
-print("\nDownload concluído!\n")
+print("\nDownload concluído com exito!\n")
