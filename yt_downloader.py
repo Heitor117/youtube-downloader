@@ -6,6 +6,9 @@
 
 from yt_dlp import YoutubeDL
 
+DOWNLOAD_PATH = r"D:\\"  # Escolha o caminho de destino para salvar os arquivos baixados
+
+
 print("Cole as URLs dos videos ou playlists (uma por linha)")
 print("Quando terminar, pressione Enter em uma linha vazia!.\n")
 
@@ -21,8 +24,8 @@ while True:
 
 opcoes = {
     'format': 'bestaudio/best',
-    'outtmpl': r'D:\%(title)s.%(ext)s',                             # Escolha o caminho de destino para salvar os arquivos baixados
-    'ffmpeg_location': r'C:\ffmpeg-8.1.2-essentials_build\bin',     # Escolha o caminho onde o FFmpeg está instalado
+    'outtmpl': DOWNLOAD_PATH + r'\%(title)s.%(ext)s',               # Escolha o caminho de destino para salvar os arquivos baixados
+    'ffmpeg_location': r'C:\ffmpeg-2026-08-09-git-6bbc22dc09-essentials_build',     # Escolha o caminho onde o FFmpeg está instalado
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',

@@ -2,6 +2,7 @@
 .venv/
 venv/
 env/
+yt-dlp/
 
 # Cache do Python
 __pycache__/

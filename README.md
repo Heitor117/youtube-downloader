@@ -13,8 +13,16 @@ Baixe o FFmpeg em:
 
 https://www.gyan.dev/ffmpeg/builds/
 
-Extraia para:
+Baixe uma versão `Essentials` e extraia para o disco de sua preferência.
 
-C:\ffmpeg-8.1.2-essentials_build
+Certifique-se de que o caminho do FFmpeg definido no código corresponde ao local onde o FFmpeg foi instalado na sua máquina.
 
-Ou adicione a pasta `bin` ao PATH do Windows.
+Exemplo:
+
+C:\ffmpeg-8.1.2-essentials_build\bin
+
+No código:
+
+'ffmpeg_location': r'C:\ffmpeg-8.1.2-essentials_build\bin'
+
+Ou, alternativamente, adicione a pasta `bin` do FFmpeg ao PATH do Windows. Nesse caso, não é necessário informar `ffmpeg_location` no código.
