@@ -9,7 +9,11 @@ pip install -r requirements.txt
 
 ## FFmpeg
 
-Baixe o FFmpeg em:
+Baixe o FFmpeg Essentials diretamente:
+
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+
+Ou escolha outra versão em:
 
 https://www.gyan.dev/ffmpeg/builds/
 
